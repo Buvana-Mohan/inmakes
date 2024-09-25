@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T19:22:28Z" name="Suite" finished-at="2024-09-22T19:23:51Z" duration-ms="83025">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T19:22:28Z" name="ChromeTest" finished-at="2024-09-22T19:22:55Z" duration-ms="27053">
+      <class name="org.stepdefinition.CrossBrowserTest">
+        <test-method is-config="true" signature="tc(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@61544ae6]" started-at="2024-09-22T19:22:28Z" name="tc" finished-at="2024-09-22T19:22:30Z" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method signature="tc1()[pri:0, instance:org.stepdefinition.CrossBrowserTest@61544ae6]" started-at="2024-09-22T19:22:30Z" name="tc1" finished-at="2024-09-22T19:22:54Z" duration-ms="24365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="tc2(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@61544ae6]" started-at="2024-09-22T19:22:54Z" name="tc2" finished-at="2024-09-22T19:22:55Z" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.stepdefinition.CrossBrowserTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-09-22T19:22:55Z" name="FirefoxTest" finished-at="2024-09-22T19:23:26Z" duration-ms="31626">
+      <class name="org.stepdefinition.CrossBrowserTest">
+        <test-method is-config="true" signature="tc(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@2c4d1ac]" started-at="2024-09-22T19:22:55Z" name="tc" finished-at="2024-09-22T19:22:58Z" duration-ms="3151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefoxbrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method signature="tc1()[pri:0, instance:org.stepdefinition.CrossBrowserTest@2c4d1ac]" started-at="2024-09-22T19:22:58Z" name="tc1" finished-at="2024-09-22T19:23:25Z" duration-ms="27181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="tc2(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@2c4d1ac]" started-at="2024-09-22T19:23:25Z" name="tc2" finished-at="2024-09-22T19:23:26Z" duration-ms="1290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefoxbrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.stepdefinition.CrossBrowserTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2024-09-22T19:23:26Z" name="EdgeTest" finished-at="2024-09-22T19:23:51Z" duration-ms="24305">
+      <class name="org.stepdefinition.CrossBrowserTest">
+        <test-method is-config="true" signature="tc(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@29526c05]" started-at="2024-09-22T19:23:26Z" name="tc" finished-at="2024-09-22T19:23:29Z" duration-ms="2709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edgebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method signature="tc1()[pri:0, instance:org.stepdefinition.CrossBrowserTest@29526c05]" started-at="2024-09-22T19:23:29Z" name="tc1" finished-at="2024-09-22T19:23:50Z" duration-ms="20889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="tc2(java.lang.String)[pri:0, instance:org.stepdefinition.CrossBrowserTest@29526c05]" started-at="2024-09-22T19:23:50Z" name="tc2" finished-at="2024-09-22T19:23:51Z" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edgebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.stepdefinition.CrossBrowserTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

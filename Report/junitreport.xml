@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="116.601927">
+    <testcase classname="Verify the functionality of scent Arts" name="Check the description of different areas" time="83.948954">
+        <system-out><![CDATA[Given User need to open the chrome browser..................................passed
+When Navigate to the given website..........................................passed
+And To click the about us button............................................passed
+And To scroll down to the bottom of the page to find areas of scenting......passed
+And click hotel,offices,airports button and Verify the description..........passed
+And Take screenshot to verify the description...............................passed
+Then Close the chrome browser after completion..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify the functionality of scent Arts" name="Navigate to Contact Us from Our Service" time="32.652973">
+        <system-out><![CDATA[Given User need to open the chrome browser..................................passed
+When Navigate to the given website..........................................passed
+And To click the Our Services button........................................passed
+And To scroll down to the bottom of the page to find Contact us button and click.passed
+And Take screenshot to verify the contact us page...........................passed
+And Verify the page is contact us...........................................passed
+Then Close the chrome browser after completion..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
